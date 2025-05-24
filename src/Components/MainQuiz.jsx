@@ -63,7 +63,7 @@ export default function MainQuiz(props){
                         {[...Array(3)].map(( _, index) => (
                                 <img
                                     key={index}
-                                    src={index < score ? "/public/heart.png" : "/public/empty-heart.png"}
+                                    src={index < score ? "/heart.png" : "/empty-heart.png"}
                                     alt="heart"
                                    
                                 />
